@@ -1,0 +1,67 @@
+﻿
+> app-tmp@0.1.0 build
+> next build
+
+  Γû▓ Next.js 14.2.35
+
+   Creating an optimized production build ...
+node.exe :  ΓÜá Compiled 
+with warnings
+At C:\Program 
+Files\nodejs\npm.ps1:29 
+char:3
++   & $NODE_EXE $NPM_CLI_JS 
+$args
++   
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: ( ΓÜá Co  
+  mpiled with warnings:Str   
+ ing) [], RemoteException
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+
+./lib/deepgram.ts
+Attempted import error: 
+'createClient' is not 
+exported from 
+'@deepgram/sdk' (imported as 
+'createClient').
+
+Import trace for requested 
+module:
+./lib/deepgram.ts
+./app/api/transcribe/route.ts
+
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+Failed to compile.
+
+./lib/deepgram.ts:1:10
+Type error: Module 
+'"@deepgram/sdk"' has no 
+exported member 
+'createClient'.
+
+[0m[31m[1m>[22m[39m[90m
+ 1 |[39m [36mimport[39m { 
+createClient } 
+[36mfrom[39m [32m"@deepgra
+m/sdk"[39m[33m;[39m[0m
+[0m [90m   |[39m          
+[31m[1m^[22m[39m[0m
+[0m [90m 2 |[39m[0m
+[0m [90m 3 |[39m 
+[36mconst[39m 
+deepgramApiKey [33m=[39m pr
+ocess[33m.[39menv[33m.[39
+m[33mDEEPGRAM_API_KEY[39m 
+[33m||[39m [32m"dummy-key"
+[39m[33m;[39m[0m
+[0m [90m 4 |[39m 
+[36mconst[39m deepgram 
+[33m=[39m createClient(deep
+gramApiKey)[33m;[39m[0m
+Next.js build worker exited 
+with code: 1 and signal: null
