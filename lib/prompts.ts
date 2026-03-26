@@ -253,6 +253,41 @@ Also generate heading:
 Example:
 "Penetrating near contact range gunshot wound of head"
 
+8A. FORENSIC TRAJECTORY RECONSTRUCTION (GSW ONLY)
+
+If a penetrating gunshot wound is described, perform controlled forensic reconstruction of the wound trajectory.
+
+Rules:
+
+1. If entrance wound exists but no exit wound is described:
+   → Assume projectile may be retained
+   → Provide a medically plausible projectile recovery location.
+
+2. Expand wound path using realistic anatomical progression based on entry location.
+
+Example progression for cranial GSW:
+scalp → skull → dura → brain structures → termination site
+
+3. The path should follow the described direction if provided.
+
+4. Use medically standard anatomical structures when reconstructing the trajectory.
+
+Examples for head injuries:
+- temporal bone
+- dura
+- temporal lobe
+- longitudinal fissure
+- parietal lobe
+- calvarium
+
+5. Do NOT invent unrelated injuries.
+Inference must be limited to the wound path.
+
+6. Projectile recovery must be consistent with the wound trajectory.
+
+Example:
+"A deformed projectile is recovered from the left parietal subgaleal space."
+
 9. MULTIPLE BLUNT FORCE TRAUMA HANDLING
 - Detect ALL non-GSW injuries
 - Group under MBFT if applicable
